@@ -2,7 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  background-color: #2b2f2f;
+  background-color: #24252A;
 }
 
 h2, a, button {
@@ -22,4 +22,34 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 30px 10%;
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+  display: inline-block;
+  padding: 0 20px;
+} 
+
+.nav_links li a {
+  transition: all 0.4s; 
+}
+
+.nav_links li a:hover{
+  color: rgb(107, 212, 177);
+}
+
+button {
+  margin-left: 20px;
+  background-color: rgb(75, 138, 180);
+  padding: 9px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.4s; 
+}
+
+button:hover {
+  background-color: rgb(62, 114, 148);
 }
